@@ -66,3 +66,14 @@ gulp.task("clean", function(){
 });
 
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
+
+gulp.task("build", ['clean'],
+ function() {
+  if (buildProduction) {
+    gulp.start('minifyScripts');
+  } else {
+    gulp.start('jsBrowserify');
+  }
+  gulp.start("bower");
+  gulp.start('cssBuild');
+});
