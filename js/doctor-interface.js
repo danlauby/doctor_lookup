@@ -5,6 +5,6 @@ $(document).ready(function() {
   $('#find_doctor').click(function() {
     var medical_issue = $('#medical_issue').val();
     $('#medical_issue').val("");
-    currentDoctor.getDoctor(medical_issue);
+    currentDoctor.getDoctorNames(medical_issue);
   });
 });
