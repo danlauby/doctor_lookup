@@ -35,3 +35,9 @@ gulp.task('bowerJS', function () {
     .pipe(uglify())
     .pipe(gulp.dest('./build/js'));
 });
+
+gulp.task('jshint', function(){
+  return gulp.src(['js/*.js'])
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
+});
