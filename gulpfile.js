@@ -64,3 +64,5 @@ gulp.task('concatInterface', function() {
 gulp.task("clean", function(){
   return del(['build', 'tmp']);
 });
+
+gulp.task('bower', ['bowerJS', 'bowerCSS']);
