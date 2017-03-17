@@ -60,3 +60,7 @@ gulp.task('concatInterface', function() {
     .pipe(concat('allConcat.js'))
     .pipe(gulp.dest('./tmp'));
 });
+
+gulp.task("clean", function(){
+  return del(['build', 'tmp']);
+});
