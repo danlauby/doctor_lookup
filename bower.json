@@ -3,7 +3,7 @@
   "description": "find a local doctor",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/danlauby/doctor_lookup",
   "ignore": [
     "**/.*",
     "node_modules",
