@@ -1,12 +1,9 @@
 {
   "name": "doctor_lookup",
-  "description": "g",
+  "description": "find a local doctor",
   "main": "index.js",
-  "authors": [
-    "Dan Lauby"
-  ],
   "license": "ISC",
-  "homepage": "https://github.com/danlauby/doctor_lookup",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",

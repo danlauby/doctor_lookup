@@ -67,8 +67,7 @@ gulp.task("clean", function(){
 
 gulp.task('bower', ['bowerJS', 'bowerCSS']);
 
-gulp.task("build", ['clean'],
- function() {
+gulp.task("build", ['clean'], function() {
   if (buildProduction) {
     gulp.start('minifyScripts');
   } else {
@@ -107,8 +106,8 @@ gulp.task('serve', function() {
       index: "index.html"
     }
   });
-  
   gulp.watch(['bower.json'], ['bowerBuild']);
+
   gulp.watch(['js/*.js'], ['jsBuild']);
   gulp.watch(["scss/*.scss"], ['cssBuild']);
   gulp.watch(['*.html'], ['htmlBuild']);
