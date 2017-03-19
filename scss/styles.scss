@@ -1,12 +1,52 @@
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Titillium Web', sans-serif;
+// font-family: 'Harmattan', sans-serif;
+
 body {
-  background-color: lightblue;
+  background-color: rgb(223, 211, 214);
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  h2 {
+    color: gray;
+    font-size: 40px;
+    font-weight: 400;
+  }
 }
+
+p {
+  font-family: 'Harmattan', sans-serif;
+}
+
 li {
   font-size: 20px;
   font-weight: bold;
+}
+
+label {
+   font-family: 'Titillium Web', sans-serif;
+
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 30px;
+}
+
+.class {
+  border-radius: 10px;
+}
+
+.header {
+  background-color: rgb(40, 39, 45);
+  color: rgb(207, 214, 207);
+  padding: 20px;
+  margin-bottom: 20px;
 }
